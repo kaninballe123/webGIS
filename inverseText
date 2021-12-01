@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<script>
+
+function inverse(balle) {
+
+document.getElementById("Text2").value = balle.split("").reverse().join("");
+
+
+}
+
+</script>
+
+
+<body>
+
+ <br><br>
+
+<center>
+
+<form action="/action_page.php">
+  <label for="Text1">Text1:</label>
+  <input type="text" id="Text1" name="Text1"><br>|<br>v<br>
+  
+ 
+  <input type="Submit" value="inverse the text" onclick = "inverse(Text1.value)">
+  
+  <br>|<br>v<br>
+  
+  <label for="Text2">Text2:</label>
+  <input type="text" id="Text2" name="Text2"><br><br>
+
+</form>
+</center>
+
+</body>
+</html>
