@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+function eventman(color) {
+
+document.getElementById("balle").style.fill = color.value;
+
+}
+
+</script>
+
+<body>
+
+<label for="color">Select a color:</label>
+  <select name="color" id="color" onchange = "eventman(this)">
+  <option value="gold">Colors</option>
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+    <option value="yellow">Yellow</option>
+  </select>
+  
+  <br>
+
+<svg width="500" height="500">
+  <polygon points=" 10,100 110,10 210,110 110,210 " style="fill:gold;stroke:darkgreen;stroke-width:1" id="balle"/>
+
+</svg> 
+ 
+</body>
+</html>
