@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+function clickT(id){
+
+			document.getElementById(id).style.fill = '#'+Math.floor(Math.random()*16777215).toString(16);
+
+			}
+
+</script>
+
+<body>
+
+<h1>My first SVG</h1>
+
+<svg width="500" height="500">
+  <polygon points=" 10,10 200,10 200,200 10,200 " style="fill:lightgreen;stroke:darkgreen;stroke-width:10"/>
+   <polygon points=" 200,10 400,10 400,200 200,200 " style="fill:tomato;stroke:darkred;stroke-width:10"/>
+   <polygon points=" 250,70 325,70 325,150 250,150 " style="fill:black;" 	onmouseover="style.fill='red'"
+onmouseout="style.fill='black'" />
+   <circle cx="50" cy="50" r="5" stroke="darkgreen" stroke-width="3" fill="darkgreen" id="123" onclick="clickT(this.id)" />
+   <circle cx="100" cy="50" r="5" stroke="darkgreen" stroke-width="3" fill="darkgreen" id="1234"
+onclick="clickT(this.id)"   />
+   <circle cx="100" cy="100" r="5" stroke="darkgreen" stroke-width="3" fill="darkgreen" />
+   <circle cx="75" cy="75" r="5" stroke="darkgreen" stroke-width="3" fill="darkgreen" />
+   <circle cx="55" cy="110" r="5" stroke="darkgreen" stroke-width="3" fill="darkgreen" />
+   <circle cx="150" cy="170" r="5" stroke="darkgreen" stroke-width="3" fill="darkgreen" />
+   Sorry, your browser does not support inline SVG.
+</svg> 
+ 
+</body>
+</html>
