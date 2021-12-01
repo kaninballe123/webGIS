@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+function eventman(color) {
+
+document.getElementById("w3review").value = color.value;
+
+}
+
+</script>
+
+
+<body>
+
+
+
+<form action="/action_page.php">
+  <label for="color">Select a color:</label>
+  <select name="color" id="color" onchange = "eventman(this)">
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+    <option value="yellow">Yellow</option>
+  </select>
+  
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  
+  <label>The Selected Color is:</label>
+  <textarea id="w3review" name="w3review" rows="1" cols="20" >
+   
+  </textarea>
+  
+  
+  <br><br>
+
+
+</body>
+</html>
