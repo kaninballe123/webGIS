@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "name": "GIS_center",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Road",
+        "type": "street"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": 	
+[
+
+          [-346.82, 55.7],
+
+          [-346.81, 55.71],
+
+          [-346.80, 55.72]
+
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "",
+        "type": "Botanical Garden"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+
+            [-346.799, 55.705],
+
+            [-346.798, 55.702],
+
+            [-346.796, 55.702],
+
+            [-346.795, 55.703],
+
+            [-346.795, 55.706],
+
+            [-346.799, 55.705]
+
+            ]
+        ]
+      }
+    }
+}
